@@ -49,7 +49,7 @@ Install library for calling youtube transcipts api, chromadb and transformers
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Watching long videos to find key information is time-consuming. What if you could **instantly summarize any video** and **ask questions** like: _"What was said about climate change?"_ — just like chatting with the content?
 
@@ -60,26 +60,26 @@ This blog post walks through an interactive GenAI-powered notebook that:
 
 ---
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
 
-- 🧠 Google Gemini 1.5 (`generativeai`)
-- 🧩 ChromaDB (vector database)
-- 📚 Sentence Transformers for semantic embeddings
-- 🎥 YouTube Transcript API
-- 🧪 Kaggle notebook runtime
-
----
-
-## 🚀 Key Capabilities Demonstrated
-
-- ✅ **Few-shot prompting**: Gemini guided with examples for high-quality summaries
-- ✅ **Structured output**: JSON summaries with `title`, `summary`, and `key_points`
-- ✅ **Long context support**: Handles full transcripts by chunking
-- ✅ **RAG (Retrieval-Augmented Generation)**: User queries are answered based on similar transcript chunks
+- Google Gemini 1.5 (`generativeai`)
+- ChromaDB (vector database)
+- Sentence Transformers for semantic embeddings
+- YouTube Transcript API
+- Kaggle notebook runtime
 
 ---
 
-## 🧱 Notebook Structure
+## Key Capabilities Demonstrated
+
+- **Few-shot prompting**: Gemini guided with examples for high-quality summaries
+- **Structured output**: JSON summaries with `title`, `summary`, and `key_points`
+- **Long context support**: Handles full transcripts by chunking
+- **RAG (Retrieval-Augmented Generation)**: User queries are answered based on similar transcript chunks
+
+---
+
+## Notebook Structure
 
 ### 1. Setup
 
@@ -134,18 +134,4 @@ And get a context-grounded Gemini answer in seconds!
 
 ---
 
-## 📌 Final Thoughts
 
-This notebook demonstrates how to **turn any YouTube video into an interactive, AI-powered experience** using state-of-the-art GenAI tools. Whether you're studying lectures, analyzing podcasts, or reviewing webinars — you now have a smart assistant on your side.
-
-🧠 Want to go further?
-- Add PDF export for summaries
-- Connect to LangChain or streamlit for a full app
-- Use multiple videos to create a searchable semantic archive
-
----
-
-## 📥 Get Started
-
-You can run the full notebook from this download:  
-[youtubesummarizer_fixed_and_ready.ipynb](sandbox:/mnt/data/youtubesummarizer_fixed_and_ready.ipynb)
